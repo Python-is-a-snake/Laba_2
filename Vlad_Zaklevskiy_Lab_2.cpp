@@ -64,13 +64,13 @@ void task_2(){
     cout << "The axis of rotation is given by the unit vector v(x, y, z)\n";
     cout << "Enter x: ";
     cin >> x;
-    mass[1] = x;
+    mass[0] = x;
     cout << "Enter y: ";
     cin >> y;
-    mass[2] = y;
+    mass[1] = y;
     cout << "Enter z: ";
     cin >> z;
-    mass[3] = z;
+    mass[2] = z;
 
 
     float angle;
